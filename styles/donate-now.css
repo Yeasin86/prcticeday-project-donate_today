@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.primary_button {
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    padding: 25px;
+}
+
+/* page banner */
+
+.page_banner {
+    background-image: url('../images/donation13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: color-burn;
+    padding: 160px;
+}
+
+.page_title {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.title_description {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* donate today */
+
+.donate_today {
+    text-align: center;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.donate h1 {
+    font-size: 60px;
+    padding: 30px;
+}
+
+.donate_desctiption {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.donate_amount_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.donate_amount {
+    margin: 18px;
+    padding: 30px;
+    font-size: 40px;
+    background-color: rgb(245, 245, 245);
+    color: gray;
+}
+
+.donate_amount:hover {
+    color: tomato;
+    background-color: rgba(255, 99, 71, 0.25);
+    border: 3px solid tomato;
+    border-radius: 5px;
+}
+
+.other_amount {
+    color: rgba(128, 128, 128, 0.578);
+}
+
+/* our donate plan */
+.donate_plan {
+    margin: 30px auto;
+    align-items: center;
+}
+
+.donate_plan_title {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.donate_plan_title h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.donate_plan_description{
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.info_boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0px auto;
+}
+
+#info_box{
+    width: 25%;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 40px;
+}
+
+.info_box_icon, .info_box_title{
+    margin: 20px 0 20px 0;
+}
+
+
+.info_box-1{
+    background-color: rgba(173, 216, 230, 0.514);
+}
+
+.info_box-2{
+    background-color: rgba(255, 182, 193, 0.631);
+}
+
+.info_box-3{
+    background-color: oldlace;
+}
+
+
+/* Side Picture Part */
+
+.have_picture_right{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 130px auto;
+}
+
+.text{
+    margin: 30px 120px;
+}
+
+
+.text .side_title{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.text p{
+    margin-bottom: 20px;
+    color: gray;
+} 
+
+.right_img{
+    border-radius: 10px;
+
+}
+
+/* subscribe form */
+
+.subscribe{
+    margin: 30px auto 120px auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    text-align: center;
+} 
+.subscribe .updates_title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.subscribe_description{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.input_box{
+    align-items: center;
+    background-color: bisque;
+    margin: 10px auto;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_box input {
+    padding: 15px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+    font-size: 20px;
+    color: rgba(243, 243, 243, 0.101);
+}
+
+.input_box button{
+    background-color: tomato    ;    
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    color: white ;
+    margin: 0;
+} 
+
+.page_footer{
+    background-color: black;
+    padding: 50px;
+}
+
+.style_font{
+    font-family: monospace; 
+    color: tomato;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.page_footer p {
+    color: white;
+    text-align: center;
+}
